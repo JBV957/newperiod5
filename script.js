@@ -18,7 +18,7 @@ const clickCountDisplay = document.getElementById('click-count');
             updateUI();
         });
 
-//3.The function updateUI changes colors on how much you click and has diffrent sentences for every time you click, it apperes to be randomized.
+//3.The function updateUI changes colors on how much you click and has diffrent sentences for every time you click, it appears to be randomized.
         function updateUI() {
             const colors = ['#FF5733', '#33FF57', '#3357FF', '#F5A623', '#E91E63'];
             const texts = [
